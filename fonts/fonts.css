@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-display: swap;
+    font-style: normal;
+    src: url(../fonts/AnyConv.com__gilroy-bold.woff) format(woff),
+      url(../fonts/AnyConv.com__gilroy-bold.woff2) format(woff2);
+    
+
+}
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-display: swap;
+    font-style: normal;
+    src: url(../fonts/AnyConv.com__gilroy-regular.woff) format(woff),
+    url(../fonts/AnyConv.com__gilroy-regular.woff2) format(woff2),
+    }
