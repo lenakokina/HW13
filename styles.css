@@ -119,13 +119,9 @@ body {
         text-align: center;
         color: #458FF6 ;
     }
-    /*  wedding */
-
-    
-        
+    /*  wedding */      
        
-   
-    }
+    
     .container-gifts {
         width: 1440px;
         margin-left: auto;
@@ -138,10 +134,14 @@ body {
     .container-gifts h2 {
         text-align: center;
         margin-bottom: 23px;
+        font-size: 32px ;
+        line-height: 1.2;
     }
     .container-gifts p {
        text-align: center;
        margin-bottom: 64px;
+       font-size: 18px;
+       line-height: 1.36;
    }
    .gifts p::after {
        content: "”";
@@ -150,20 +150,22 @@ body {
        content: "“";
    }
    .list {
+       width: 1170px;
+       margin-left: auto;
+       margin-right: auto;
        display: grid;
        grid-template-columns: 1fr 1fr 1fr 1fr;
-       gap: 30px;
-       
+       gap: 30px;      
       
+       }   
+         .list li {          
+           transition: all 0.3s;        
        }
-       .list li {
-           width: 270px;
-           transition: all 0.3s;
-        
-       }
+
        .list li:hover figcaption {
            background-color: white;
        }
+       
        .list li:hover {
            filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
        }
@@ -172,10 +174,10 @@ body {
        .list img {
            width: 100%;
        }
-       .list figure {
-           width: 270px;
-       }
+       
+       
        .list figcaption {
+           width: 270px;
            padding: 24px;
            transition: all 0.3s;
        }
